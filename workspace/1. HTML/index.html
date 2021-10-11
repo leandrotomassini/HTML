@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"></meta>
+
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    ></meta>
+
+    <!-- Buscadores -->
+
+    <meta
+        name="description"
+        content="Esta página te mostrara instructivos de programas"
+    ></meta>
+
+    <meta
+        name="robots"
+        content="index,follow"
+    ></meta>
+
+    <title>Es mi página</title>
+
+    <!-- Responsive -->
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    ></meta>
+
+    <!-- Estilos -->
+
+    <link
+        rel="stylesheet"
+        href="./css/style.css"
+    ></link>
+</head>
+
+<body>
+    <main>
+        <!-- botones -->
+
+        <input type="submit" value="Guardar">
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+        <br>
+        <br>
+        <!-- Formularios -->
+        <input list="cursos"></input>
+
+        <datalist id="cursos">
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="WebStandards"></option>
+        </datalist>
+
+        <form action="">
+            <br>
+            <br>
+
+            <label for="nombre">
+                <span>¿Cúal es tu nombre?</span>
+
+                <input
+                    type="text"
+                    name="nombre"
+                    id="nombre"
+                    placeholder="Ingresa tu nombre completo"
+                    autocomplete="name"
+                    required="required"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="correo">
+                <span>¿Cúal es tu correo?</span>
+
+                <input
+                    type="email"
+                    name="correo"
+                    id="correo"
+                    placeholder="Ingresa tu correo electrónico"
+                    autocomplete="email"
+                    required="required"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="pais">
+                <span>¿Cúal es tu país?</span>
+
+                <input
+                    type="text"
+                    name="pais"
+                    id="pais"
+                    placeholder="En que país vives actualmente"
+                    autocomplete="country"
+                    required="required"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="codigo-postal">
+                <span>Código postal</span>
+
+                <input
+                    type="text"
+                    name="codigo-postal"
+                    id="codigo-postal"
+                    placeholder="Ingresa tu código postal"
+                    autocomplete="postal-code"
+                    required="required"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <input
+                type="submit"
+                value="Enviar"
+            ></input>
+        </form>
+
+        <br>
+        <br>
+
+        <form action="">
+            <label for="calendario">
+                <span>Calendario</span>
+
+                <input
+                    type="datetime-local"
+                    id="calendario"
+                    name="calendario"
+                ></input>
+            </label>
+        </form>
+
+        <br>
+        <br>
+
+        <form action="">
+            <label for="nombre">
+                <span>¿Cúal es tu nombre?</span>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Escribe tu nombre completo"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="dia-inicio">
+                <span>¿Qué día iniciaste?</span>
+
+                <input
+                    type="date"
+                    id="dia-inicio"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="horario">
+                <span>
+                    ¿En que horario te gusta estudiar?
+                </span>
+
+                <input
+                    type="time"
+                    id="horario"
+                    name="horario"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="dia">
+                <span>Día</span>
+
+                <input
+                    type="date"
+                    id="dia"
+                    name="dia"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="semana">
+                <span>Semana</span>
+
+                <input
+                    type="week"
+                    id="semana"
+                    name="semana"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="mes">
+                <span>mes</span>
+
+                <input
+                    type="month"
+                    id="mes"
+                    name="mes"
+                ></input>
+            </label>
+
+            <br>
+            <br>
+
+            <input
+                type="submit"
+                value="enviar"
+            ></input>
+        </form>
+
+        <br>
+        <br>
+        <!-- Video -->
+
+        <section>
+            <video
+                controls="controls"
+                preload="auto"
+            >
+                <source src="./assets/video/1.mp4#t=10,60">
+                    <source src="./assets/video/1.m4v#t=10,60"></source>
+                </source>
+            </video>
+        </section>
+
+        <!-- Imágen -->
+
+        <section>
+            <figure>
+                <img
+                    src="./assets/img/fondo.jpg"
+                    alt="Es una imagen de un perrito"
+                >
+
+                <figcaption>Es una imágen de un perrito</figcaption>
+            </figure>
+        </section>
+    </main>
+</body>
+</html>
